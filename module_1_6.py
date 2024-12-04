@@ -1,0 +1,16 @@
+my_dict={"Бугаева Анна": '28.08.86.', "Гамова Настя": '31.03.75.', "Добрикова Таня": '05.08.82.'}
+print(my_dict)
+print(my_dict["Бугаева Анна"])
+print(my_dict.get("Глубшева Наталья"))
+my_dict.update({"Климина Ольга": '19.09.03.', "Лискина Ольга": '03.12.74'})
+print(my_dict)
+b=my_dict.pop("Бугаева Анна")
+print(my_dict)
+print(b)
+print(my_dict)
+my_set = {56, 32, 6, 56, 65, 6, "city",(6, 7, 32)}
+print(my_set)
+print(my_set.add(48))
+print(my_set.add(23))
+print(my_set.discard(6))
+print(my_set)
